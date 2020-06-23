@@ -9,7 +9,7 @@ import SwiftUI
 
 internal struct VerticalGridView: View
 {
-    var columns: [GridItem] = Array(repeating: .init(.adaptive(minimum: 100)), count: 3)
+    var columns: [GridItem] = [ GridItem(.adaptive(minimum: 100)) ]
     
     internal var body: some View
     {
